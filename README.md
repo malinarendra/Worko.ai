@@ -19,6 +19,7 @@ All assignment tasks are completed in this project, including:
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
+- [Contact](#contact)
 
 ## Installation
 
@@ -33,7 +34,7 @@ All assignment tasks are completed in this project, including:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/worko.git
+   git clone https://github.com/malinarendra/Worko.ai.git
    ```
 
 2. Navigate to the project directory:
@@ -92,13 +93,13 @@ Once the server is running, you can use tools like Postman or cURL to interact w
 - **PUT** - Update user
 
   ```bash
-  PUT /worko/user/:userId
+  PUT /worko/user
   ```
 
 - **PATCH** - Partially update user
 
   ```bash
-  PATCH /worko/user/:userId
+  PATCH /worko/user
   ```
 
 - **DELETE** - Soft delete user in the database
@@ -118,12 +119,6 @@ The required fields for creating or updating a user are:
 - city
 - zipcode
 
-### Validation
-
-- Email must be a valid email address.
-- Zip code must be a valid format it should of 5 numbers only.
-- Id must be present in parameter of every request for DELETE and Get[ get user by id] requests.
-
 ## Contact
 
-Narendra Mali - [narendramali0002@gmail.com](mailto:narendramali0002@gmail.com)
+Narendra Mali - mailto:narendramali0002@gmail.com
